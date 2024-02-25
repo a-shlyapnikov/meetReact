@@ -26,23 +26,27 @@ export default function TemperatureConverter() {
 	};
 
 	return (
-		<div className='temperature-converter'>
-			<TextField
-				fullWidth
-				id='celsius-field'
-				label='Температура в градусах Цельсия'
-				variant='filled'
-				value={celsius}
-				onChange={handleCelsiusChange}
-			/>
-			<TextField
-				fullWidth
-				id='fahrenheit-field'
-				label='Температура в градусах Фаренгейта'
-				variant='filled'
-				value={fahrenheit}
-				onChange={handleFahrenheitChange}
-			/>
+		<div className='center'>
+		<h2>Temperature converter</h2>
+			<div className='temperature-converter '>
+				
+				<TextField
+					fullWidth
+					id='celsius-field'
+					label='Температура в градусах Цельсия'
+					variant='filled'
+					value={celsius}
+					onChange={handleCelsiusChange}
+				/>
+				<TextField
+					fullWidth
+					id='fahrenheit-field'
+					label='Температура в градусах Фаренгейта'
+					variant='filled'
+					value={fahrenheit}
+					onChange={handleFahrenheitChange}
+				/>
+			</div>
 		</div>
 	);
 }

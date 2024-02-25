@@ -1,6 +1,7 @@
 import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import TemperatureConverter from './components/TemperatureConverter';
+import TodoList from './components/TodoList';
 
 const darkTheme = createTheme({
 	palette: {
@@ -13,7 +14,7 @@ function App() {
 		<ThemeProvider theme={darkTheme}>
 			<CssBaseline />
 			<TemperatureConverter />
-			<main>This app is using the dark mode</main>
+			<TodoList />
 		</ThemeProvider>
 	);
 }
