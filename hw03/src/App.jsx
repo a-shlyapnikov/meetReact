@@ -2,6 +2,7 @@ import CssBaseline from '@mui/material/CssBaseline';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import TemperatureConverter from './components/TemperatureConverter';
 import TodoList from './components/TodoList';
+import ToggleTheme from './components/ToggleTheme'
 
 const darkTheme = createTheme({
 	palette: {
@@ -11,6 +12,7 @@ const darkTheme = createTheme({
 
 function App() {
 	return (
+
 		<ThemeProvider theme={darkTheme}>
 			<CssBaseline />
 			<TemperatureConverter />
