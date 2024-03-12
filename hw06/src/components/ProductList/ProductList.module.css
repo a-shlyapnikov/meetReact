@@ -1,0 +1,12 @@
+.product{
+	padding: 2rem;
+	border: 1px solid rgba(234, 234, 234, 0.9);
+	border-radius: 20px;
+  text-align: center;
+
+}
+.productBox{
+	display: grid;
+	gap: 20px;
+	grid-template-columns: repeat(3, 1fr);
+}

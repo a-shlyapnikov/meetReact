@@ -1,0 +1,16 @@
+.form{
+	width: 300px;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	border: 1px solid rgba(150, 150, 150, 0.9
+	);
+	border-radius: 20px;
+	margin-bottom: 20px;
+}
+
+.formWrapper{
+	display: flex;
+	justify-content: center;
+}
